@@ -1,0 +1,26 @@
+FLAGS   0    0    0    0    0    0    1
+F_STAR10    -1.301
+ALPHA_STAR    0.5
+F_ESC10    -1.0
+ALPHA_ESC    -0.5
+M_TURN    8.69897
+t_STAR    0.5
+ZETA    200
+MFP    15
+TVIR_MIN    5.48
+L_X    40.5
+NU_X_THRESH    500.0
+NU_X_BAND_MAX    2000.0
+NU_X_MAX    10000.0
+X_RAY_SPEC_INDEX    1.0
+X_RAY_TVIR_MIN    5.48
+X_RAY_TVIR_LB    4.0
+X_RAY_TVIR_UB    6.0
+N_RSD_STEPS    20
+LOS_direction    2
+CO-EVAL-Z    6
+CO-EVAL-Z    6.5
+CO-EVAL-Z    7
+CO-EVAL-Z    8
+CO-EVAL-Z    9
+CO-EVAL-Z    10

@@ -1,0 +1,37 @@
+2019-08-16 10:17:42,427 INFO:Using CosmoHammer 0.2.1
+2019-08-16 10:17:42,427 INFO:Using emcee 1.2.0
+2019-08-16 10:17:42,434 INFO:Sampler: <class 'CosmoHammer_21CMMC.sampler.CosmoHammerSampler.CosmoHammerSampler'>
+configuration: 
+  Burnin iterations: 20
+  Samples iterations: 100
+  Walkers ratio: 2
+  Reusing burn in: False
+  init pos generator: SampleBallPositionGenerator
+  stop criteria: IterationStopCriteriaStrategy
+  storage util: SampleFileUtil
+likelihoodComputationChain: 
+Core Modules: 
+  
+Likelihood Modules: 
+  Likelihood21cmFast_multiz
+
+2019-08-16 10:17:42,434 INFO:start burn in
+2019-08-16 10:42:04,929 INFO:Iteration finished:10
+2019-08-16 11:04:48,570 INFO:Iteration finished:20
+2019-08-16 11:04:48,570 INFO:storing random state
+2019-08-16 11:04:48,570 INFO:burn in sampling done! Took: 2826.1359s
+2019-08-16 11:04:48,571 INFO:Mean acceptance fraction for burn in:0.2417
+2019-08-16 11:04:48,571 INFO:Reseting emcee sampler
+2019-08-16 11:04:48,571 INFO:start sampling after burn in
+2019-08-16 11:27:48,539 INFO:Iteration finished:10
+2019-08-16 11:51:21,877 INFO:Iteration finished:20
+2019-08-16 12:14:34,281 INFO:Iteration finished:30
+2019-08-16 12:37:32,169 INFO:Iteration finished:40
+2019-08-16 12:59:59,426 INFO:Iteration finished:50
+2019-08-16 13:22:10,246 INFO:Iteration finished:60
+2019-08-16 13:45:31,588 INFO:Iteration finished:70
+2019-08-16 14:08:09,112 INFO:Iteration finished:80
+2019-08-16 14:30:59,798 INFO:Iteration finished:90
+2019-08-16 14:54:18,343 INFO:Iteration finished:100
+2019-08-16 14:54:18,343 INFO:sampling done! Took: 13769.7725s
+2019-08-16 14:54:18,343 INFO:Mean acceptance fraction:0.0283

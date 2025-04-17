@@ -1,0 +1,172 @@
+2020-03-09 12:28:09,916 INFO:Using CosmoHammer 0.2.1
+2020-03-09 12:28:09,916 INFO:Using emcee 1.2.0
+2020-03-09 12:28:10,176 INFO:Sampler: <class 'CosmoHammer_21CMMC.sampler.CosmoHammerSampler.CosmoHammerSampler'>
+configuration: 
+  Burnin iterations: 200
+  Samples iterations: 3000
+  Walkers ratio: 30
+  Reusing burn in: False
+  init pos generator: SampleBallPositionGenerator
+  stop criteria: IterationStopCriteriaStrategy
+  storage util: SampleFileUtil
+likelihoodComputationChain: 
+Core Modules: 
+  
+Likelihood Modules: 
+  Likelihood21cmFast_multiz
+
+2020-03-09 12:28:10,176 INFO:start burn in
+2020-03-10 11:48:30,859 INFO:Iteration finished:10
+2020-03-10 12:19:45,382 INFO:Iteration finished:20
+2020-03-10 12:51:04,491 INFO:Iteration finished:30
+2020-03-10 13:22:19,758 INFO:Iteration finished:40
+2020-03-10 13:53:33,731 INFO:Iteration finished:50
+2020-03-10 14:24:47,982 INFO:Iteration finished:60
+2020-03-10 14:55:56,818 INFO:Iteration finished:70
+2020-03-10 15:27:03,303 INFO:Iteration finished:80
+2020-03-10 15:58:15,917 INFO:Iteration finished:90
+2020-03-10 16:29:25,140 INFO:Iteration finished:100
+2020-03-10 17:00:35,022 INFO:Iteration finished:110
+2020-03-10 17:31:45,624 INFO:Iteration finished:120
+2020-03-10 18:02:50,871 INFO:Iteration finished:130
+2020-03-10 18:34:05,284 INFO:Iteration finished:140
+2020-03-10 19:05:13,185 INFO:Iteration finished:150
+2020-03-10 19:36:28,623 INFO:Iteration finished:160
+2020-03-10 20:07:48,019 INFO:Iteration finished:170
+2020-03-10 20:38:59,275 INFO:Iteration finished:180
+2020-03-10 21:10:02,529 INFO:Iteration finished:190
+2020-03-10 21:41:10,667 INFO:Iteration finished:200
+2020-03-10 21:41:10,667 INFO:storing random state
+2020-03-10 21:41:10,668 INFO:burn in sampling done! Took: 119580.4919s
+2020-03-10 21:41:10,668 INFO:Mean acceptance fraction for burn in:0.0295
+2020-03-10 21:41:10,668 INFO:Reseting emcee sampler
+2020-03-10 21:41:10,669 INFO:start sampling after burn in
+2020-03-10 22:12:13,290 INFO:Iteration finished:10
+2020-03-10 22:43:27,312 INFO:Iteration finished:20
+2020-03-10 23:14:41,942 INFO:Iteration finished:30
+2020-03-10 23:45:57,834 INFO:Iteration finished:40
+2020-03-11 00:17:08,055 INFO:Iteration finished:50
+2020-03-11 00:48:16,931 INFO:Iteration finished:60
+2020-03-11 01:19:25,641 INFO:Iteration finished:70
+2020-03-11 01:50:34,875 INFO:Iteration finished:80
+2020-03-11 02:21:46,669 INFO:Iteration finished:90
+2020-03-11 02:52:59,230 INFO:Iteration finished:100
+2020-03-11 03:24:13,013 INFO:Iteration finished:110
+2020-03-11 03:55:30,777 INFO:Iteration finished:120
+2020-03-11 04:26:51,936 INFO:Iteration finished:130
+2020-03-11 04:58:07,003 INFO:Iteration finished:140
+2020-03-11 05:29:12,158 INFO:Iteration finished:150
+2020-03-11 06:00:28,777 INFO:Iteration finished:160
+2020-03-11 06:31:38,820 INFO:Iteration finished:170
+2020-03-11 07:03:01,793 INFO:Iteration finished:180
+2020-03-11 07:34:21,071 INFO:Iteration finished:190
+2020-03-11 08:05:33,074 INFO:Iteration finished:200
+2020-03-11 08:36:45,615 INFO:Iteration finished:210
+2020-03-11 09:07:58,527 INFO:Iteration finished:220
+2020-03-11 09:39:10,093 INFO:Iteration finished:230
+2020-03-11 10:10:32,120 INFO:Iteration finished:240
+2020-03-11 10:41:40,769 INFO:Iteration finished:250
+2020-03-11 11:13:00,967 INFO:Iteration finished:260
+2020-03-11 11:44:09,779 INFO:Iteration finished:270
+2020-03-11 12:15:22,634 INFO:Iteration finished:280
+2020-03-11 12:46:35,146 INFO:Iteration finished:290
+2020-03-11 13:17:51,225 INFO:Iteration finished:300
+2020-03-11 13:49:01,078 INFO:Iteration finished:310
+2020-03-11 14:20:15,147 INFO:Iteration finished:320
+2020-03-11 14:51:25,807 INFO:Iteration finished:330
+2020-03-11 15:22:40,647 INFO:Iteration finished:340
+2020-03-11 15:53:39,679 INFO:Iteration finished:350
+2020-03-11 16:24:58,172 INFO:Iteration finished:360
+2020-03-11 16:55:47,057 INFO:Iteration finished:370
+2020-03-11 17:26:47,019 INFO:Iteration finished:380
+2020-03-11 17:57:35,803 INFO:Iteration finished:390
+2020-03-11 18:26:47,494 INFO:Iteration finished:400
+2020-03-11 18:56:52,081 INFO:Iteration finished:410
+2020-03-11 19:28:36,971 INFO:Iteration finished:420
+2020-03-11 20:00:05,020 INFO:Iteration finished:430
+2020-03-11 20:31:21,228 INFO:Iteration finished:440
+2020-03-11 21:02:33,864 INFO:Iteration finished:450
+2020-03-11 21:33:54,352 INFO:Iteration finished:460
+2020-03-11 22:05:07,703 INFO:Iteration finished:470
+2020-03-11 22:36:25,285 INFO:Iteration finished:480
+2020-03-11 23:07:48,601 INFO:Iteration finished:490
+2020-03-11 23:39:07,016 INFO:Iteration finished:500
+2020-03-12 00:10:12,522 INFO:Iteration finished:510
+2020-03-12 00:39:52,121 INFO:Iteration finished:520
+2020-03-12 01:09:07,649 INFO:Iteration finished:530
+2020-03-12 01:38:28,346 INFO:Iteration finished:540
+2020-03-12 02:07:43,334 INFO:Iteration finished:550
+2020-03-12 02:36:56,108 INFO:Iteration finished:560
+2020-03-12 03:06:14,815 INFO:Iteration finished:570
+2020-03-12 03:35:27,921 INFO:Iteration finished:580
+2020-03-12 04:04:43,293 INFO:Iteration finished:590
+2020-03-12 04:33:55,127 INFO:Iteration finished:600
+2020-03-12 05:03:10,371 INFO:Iteration finished:610
+2020-03-12 05:32:26,968 INFO:Iteration finished:620
+2020-03-12 06:01:45,985 INFO:Iteration finished:630
+2020-03-12 06:31:05,110 INFO:Iteration finished:640
+2020-03-12 07:00:18,217 INFO:Iteration finished:650
+2020-03-12 07:29:34,583 INFO:Iteration finished:660
+2020-03-12 07:58:57,544 INFO:Iteration finished:670
+2020-03-12 08:28:11,499 INFO:Iteration finished:680
+2020-03-12 08:57:23,760 INFO:Iteration finished:690
+2020-03-12 09:26:38,876 INFO:Iteration finished:700
+2020-03-12 09:55:56,364 INFO:Iteration finished:710
+2020-03-12 10:25:10,694 INFO:Iteration finished:720
+2020-03-12 10:54:28,969 INFO:Iteration finished:730
+2020-03-12 11:23:46,402 INFO:Iteration finished:740
+2020-03-12 11:54:31,155 INFO:Iteration finished:750
+2020-03-12 12:25:38,957 INFO:Iteration finished:760
+2020-03-12 12:57:07,077 INFO:Iteration finished:770
+2020-03-12 13:28:09,348 INFO:Iteration finished:780
+2020-03-12 13:59:19,152 INFO:Iteration finished:790
+2020-03-12 14:30:42,932 INFO:Iteration finished:800
+2020-03-12 15:02:00,496 INFO:Iteration finished:810
+2020-03-12 15:33:00,252 INFO:Iteration finished:820
+2020-03-12 16:04:14,960 INFO:Iteration finished:830
+2020-03-12 16:35:32,412 INFO:Iteration finished:840
+2020-03-12 17:06:36,220 INFO:Iteration finished:850
+2020-03-12 17:36:06,309 INFO:Iteration finished:860
+2020-03-12 18:05:22,404 INFO:Iteration finished:870
+2020-03-12 18:34:33,934 INFO:Iteration finished:880
+2020-03-12 19:03:46,790 INFO:Iteration finished:890
+2020-03-12 19:33:00,638 INFO:Iteration finished:900
+2020-03-12 20:02:12,680 INFO:Iteration finished:910
+2020-03-12 20:31:26,654 INFO:Iteration finished:920
+2020-03-12 21:00:42,828 INFO:Iteration finished:930
+2020-03-12 21:29:54,962 INFO:Iteration finished:940
+2020-03-12 21:59:04,099 INFO:Iteration finished:950
+2020-03-12 22:28:18,217 INFO:Iteration finished:960
+2020-03-12 22:57:32,532 INFO:Iteration finished:970
+2020-03-12 23:26:48,422 INFO:Iteration finished:980
+2020-03-12 23:55:56,195 INFO:Iteration finished:990
+2020-03-13 00:25:13,782 INFO:Iteration finished:1000
+2020-03-13 00:54:26,712 INFO:Iteration finished:1010
+2020-03-13 01:23:39,522 INFO:Iteration finished:1020
+2020-03-13 01:52:53,091 INFO:Iteration finished:1030
+2020-03-13 02:22:05,773 INFO:Iteration finished:1040
+2020-03-13 02:51:22,433 INFO:Iteration finished:1050
+2020-03-13 03:20:39,744 INFO:Iteration finished:1060
+2020-03-13 03:49:55,197 INFO:Iteration finished:1070
+2020-03-13 04:19:07,384 INFO:Iteration finished:1080
+2020-03-13 04:48:30,138 INFO:Iteration finished:1090
+2020-03-13 05:17:40,779 INFO:Iteration finished:1100
+2020-03-13 05:46:56,010 INFO:Iteration finished:1110
+2020-03-13 06:16:11,514 INFO:Iteration finished:1120
+2020-03-13 06:45:38,234 INFO:Iteration finished:1130
+2020-03-13 07:15:05,830 INFO:Iteration finished:1140
+2020-03-13 07:44:13,924 INFO:Iteration finished:1150
+2020-03-13 08:13:26,252 INFO:Iteration finished:1160
+2020-03-13 08:42:44,948 INFO:Iteration finished:1170
+2020-03-13 09:11:57,715 INFO:Iteration finished:1180
+2020-03-13 09:41:12,872 INFO:Iteration finished:1190
+2020-03-13 10:10:26,136 INFO:Iteration finished:1200
+2020-03-13 10:39:42,419 INFO:Iteration finished:1210
+2020-03-13 11:08:55,833 INFO:Iteration finished:1220
+2020-03-13 11:38:06,308 INFO:Iteration finished:1230
+2020-03-13 12:07:18,007 INFO:Iteration finished:1240
+2020-03-13 12:36:30,633 INFO:Iteration finished:1250
+2020-03-13 13:05:47,286 INFO:Iteration finished:1260
+2020-03-13 13:34:56,878 INFO:Iteration finished:1270
+2020-03-13 14:04:11,215 INFO:Iteration finished:1280
+2020-03-13 14:33:23,395 INFO:Iteration finished:1290
