@@ -2,11 +2,10 @@ Inferring the properties of the sources of reionization using the morphological 
 ==============================================================================================================
 
 
-This repository is providing the data and notebookss needed to reproduce the results of the paper I published in the Monthly Notices of the Astronomical Society in 2021. 
-The paper is available in the repo, or online
+This repository is providing the data and code needed to reproduce the results of the paper published in the Monthly Notices of the Astronomical Society in 2021. 
+The paper is available in the repo, or online:
 
-- `Inferring the properties of the sources of reionization using the
-morphological spectra of the ionized regions <https://academic.oup.com/mnras/article/502/2/1816/6102530?login=false>`_ 
+- `Inferring the properties of the sources of reionization using the morphological spectra of the ionized regions <https://academic.oup.com/mnras/article/502/2/1816/6102530?login=false>`_ 
 
 
 
@@ -40,7 +39,8 @@ I developed a Bayesian inference approach using the morphological pattern spectr
 Result figures:
 ---------------
 
-The Python notebooks were developed to analyse the MCMC chains and plot the paper mains figures shown here. This is only meant as an overview, see the paper for more context. 
+The Python notebooks were developed to analyse the MCMC chains and plot the paper mains figures shown here. 
+This is only meant as an overview, the paper provides all the details needed to the interested reader. 
 
 1. Bubble statistics as a function of time and instrumentation impact:
 
@@ -86,7 +86,7 @@ Notes:
 
 `The 21CMMC code is available here <https://github.com/21cmfast/21CMMC>`_
 
-Please note this project has been suuccessfully completed in 2020, the Python and inference code have not been updated since then.
+Please note that this project has been successfully completed in 2020, the Python and inference code have not been updated since then.
 
 AUTHOR
 ------
